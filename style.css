@@ -1,0 +1,144 @@
+body {
+	background-color: #f8f9fb;
+}
+
+.container {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.filter {
+	width: 100%;
+	background-color: white;
+	border-bottom: 1px rgb(218, 218, 218) solid;
+	padding: 10px;
+}
+.filter button{
+    width:80px;
+    height:30px;
+    font:15px;
+    margin-right: 10px;
+    cursor: pointer;
+    display: inline-block;
+    padding: 8px .8em;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    white-space: nowrap;
+}
+
+#search {
+  background-color: #0095ff;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  box-shadow: rgba(255, 255, 255, .4) 0 1px 0 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+}
+
+#search:hover,
+#search:focus {
+  background-color: #07c;
+}
+
+#search:focus {
+  box-shadow: 0 0 0 4px rgba(0, 149, 255, .15);
+}
+
+#clear{
+  background-color: #e1ecf4;
+  border-radius: 3px;
+  border: 1px solid #7aa7c7;
+  box-shadow: rgba(255, 255, 255, .7) 0 1px 0 0 inset;
+  box-sizing: border-box;
+  color: #39739d;
+
+}
+
+#clear:hover,
+#clear:focus {
+  background-color: #b3d3ea;
+  color: #2c5777;
+}
+
+#clear:focus {
+  box-shadow: 0 0 0 4px rgba(0, 149, 255, .15);
+}
+
+
+.filter h2 {
+	margin-left: 15px;
+	font-size:30px;
+}
+
+.filter-container {
+	display: grid;
+	grid-template-columns: auto auto auto;
+}
+
+.grid-item {
+	padding: 10px;
+	color: dimgray;
+}
+
+.board {
+	width: 48%;
+	float: left;
+	min-height: 800px;
+	min-width: 601px;
+	background-color: white;
+	border-radius: 10px;
+	border: 1px rgb(218, 218, 218) solid;
+	margin: 10px;
+}
+
+.board h2 {
+	font-size: 20px;
+	margin-left: 10px;
+}
+
+.menu {
+	width: 160px;
+	height: 30px;
+}
+
+input[name=price],
+#night,
+#host {
+	width: 50px;
+}
+
+
+#mapBox {
+	position: relative;
+	z-index: 0;
+	width: 100%;
+	height: 700px;
+}
+
+.infoBox {
+	font-size: large;
+	text-transform: capitalize;
+	border: 1px grey solid;
+}
+
+.tooltip {
+	font-weight: bold;
+	padding: 0.5rem;
+	border: 1px solid silver;
+}
+
+.hidden {
+	display: none;
+}
+.circleStyle{
+    fill:#ff0000;
+    opacity: 0.5;
+	border:1px solid #ff0000;
+	cursor:pointer;
+}
+#result{
+	margin-left: 10px;;
+}
